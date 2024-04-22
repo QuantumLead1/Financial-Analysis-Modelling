@@ -26,7 +26,3 @@ BS.autofit()
 CF = wb.sheets.add("Cash Flow")
 CF.range("A1").value = ticker.cash_flow
 CF.autofit()
-
-Info = wb.sheets.add("Stock Info")
-
-Info.api.OLEObjects("TextBox1").Object.Value = ticker.info
